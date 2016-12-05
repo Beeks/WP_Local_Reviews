@@ -1,0 +1,33 @@
+#clr_metabox .hndle {
+	border:none;
+}
+
+#clr_metabox .inside.clr-fields {
+	padding: 0;
+	margin: 0;
+}
+
+.field-holder {
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	padding: 15px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#meta-content {
+	width: 100%;
+	height: 150px;
+}
+
+.field-label {
+	width: 100%;
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+
+.field-input input {
+	width: 100%;
+}

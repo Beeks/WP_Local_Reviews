@@ -1,0 +1,70 @@
+#creare_review_dashboard_widget .inside {
+	padding: 0;
+}
+#creare_review_dashboard_widget .inside form {
+	padding: 0 12px;
+}
+#creare_review_dashboard_widget .input-text-wrap,
+#creare_review_dashboard_widget .select-text-wrap {
+	margin: 0 0 15px;
+}
+#creare_review_dashboard_widget .input-text-wrap label,
+#creare_review_dashboard_widget .select-text-wrap label,
+#creare_review_dashboard_widget .submit-text-wrap label {
+	margin: 0 0 5px;
+}
+#creare_review_dashboard_widget .select-text-wrap select {
+	width: 100%;
+	display: block;
+}
+
+#creare_review_dashboard_widget .service-checkbox-holder {
+	margin: 5px 0 15px;
+}
+
+#creare_review_dashboard_widget .submit-text-wrap {
+	position: relative;
+}
+
+#creare_review_dashboard_widget .submit-text-wrap .preloader {
+	margin: 0;
+	position: absolute;
+	top: 2px;
+	left: 100px;
+}
+
+#clr-widget-footer {
+	width: 92%;
+	background: #21ADB2;
+	padding: 10px 4%;
+	margin: 25px 0 0;
+}
+#clr-widget-footer span {
+	
+}
+#clr-widget-footer span svg {
+	width: 10px;
+}
+#clr-widget-footer p, #clr-widget-footer p a {
+	color: #fff;
+	margin: 0;
+	font-size: 14px;
+}
+#clr-widget-footer p a {
+	text-decoration: underline;
+}
+#clr-widget-footer p a:hover {
+	text-decoration: none;
+}
+
+@media screen and ( min-width: 600px ) {
+	.left-intro {
+		
+	}
+	.right-intro {
+
+	}
+	.right-intro svg {
+
+	}
+}

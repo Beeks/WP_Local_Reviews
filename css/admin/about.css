@@ -1,0 +1,38 @@
+.creare-plugins {
+	width: 100%;
+}
+.creare-plugins .box {
+	width: 300px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.creare-plugins .box .content {
+	width: 100%;
+	padding: 10px;
+
+	box-sizing: border-box;
+}
+.creare-plugins .box p {
+	margin: 10px 0 0 0;
+}
+.creare-plugins .box p.intro {
+	margin: 0;
+}
+.creare-plugins .box p.title {
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 15px;
+	margin: 0;
+	text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+@media screen and (min-width: 759px) {
+
+	.creare-plugins .box {
+		min-height: 160px;
+		float: left;
+		margin: 0 10px 10px 0;
+	}
+
+}

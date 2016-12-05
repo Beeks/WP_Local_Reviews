@@ -1,0 +1,118 @@
+.creare-plugins_page_creare-plugins-clr-settings #wpbody
+ {
+	position: static;
+}
+#wpfooter {
+    display: none;
+}
+table.wp_brb_table tbody tr td.label {
+	width: 24%;
+	vertical-align: top;
+}
+table.wp_brb_table tbody tr td.label.activate_label {
+	width:10%;
+	background: #fff;
+	border:none;
+}
+table.wp_brb_table.activate_table tbody tr td p {
+	padding: 15px;
+	border:1px solid #E6BDBE;
+	background:#EFD1D1;
+	margin-bottom:0;
+}
+
+.postbox {
+	margin: 0 0 10px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+#poststuff .postbox thead {
+    border-bottom: 1px solid #e5e5e5;
+}
+#poststuff .postbox h3,
+#poststuff .postbox thead h3 {
+    padding: 0;
+    color: #21ADB2;
+    font-size: 18px;
+}
+.postbox tbody {
+	padding: 10px 15px;
+	display: block;
+}
+input.regular-text.dimensions {
+	width: 5em;
+	text-align: left;
+}
+.form-table td.intro {
+	padding: 0;
+}
+
+/* Code Examples */
+.clr-code-examples .code {
+	padding: 5%;
+	margin: 20px 0 1px;
+	background: #eaeaea;
+	background: rgba( 0, 0, 0, .07 );
+	font-size: 13px;
+	font-family: Consolas,Monaco,monospace;
+	direction: ltr;
+	unicode-bidi: embed;
+}
+.clr-code-examples .code span {
+	width: 100%;
+	display: block;
+}
+.clr-code-examples .code span.bold {
+	font-weight: bold;
+}
+.clr-code-examples .code span.indent1 {
+	margin: 0;
+}
+.clr-code-examples .code span.indent2 {
+	margin: 0 0 0 20px;
+}
+.clr-code-examples .code span.indent3 {
+	margin: 0 0 0 40px;
+}
+.clr-code-examples .code span.indent4 {
+	margin: 0 0 0 60px;
+}
+.clr-code-examples .code span.indent5 {
+	margin: 0 0 0 80px;
+}
+
+#loop-examples-content {
+    margin: 0 0 10px;
+}
+
+#adduser .form-field input.error-input, 
+input.regular-text.error-input {
+	border-color: #ff0000;
+	background: #ff0000;
+	background: rgba( 255, 0, 0, 0.1 );
+}
+
+/* Footer Styling */
+#clr-widget-footer {
+	width: 98%;
+	background: #21ADB2;
+	padding: 10px 1%;
+	margin: 25px 0 0;
+}
+#clr-widget-footer span {
+	
+}
+#clr-widget-footer span svg {
+	width: 10px;
+}
+#clr-widget-footer p, #clr-widget-footer p a {
+	color: #fff;
+	margin: 0;
+	font-size: 14px;
+}
+#clr-widget-footer p a {
+	text-decoration: underline;
+}
+#clr-widget-footer p a:hover {
+	text-decoration: none;
+}

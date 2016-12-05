@@ -1,0 +1,250 @@
+body {
+	background: #F0F0F0;
+	font-family: arial, sans-serif;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+}
+
+.no-display {
+	display:none !important;
+}
+
+.clr-wrapper {
+	width: 100%;
+	padding: 10px 10px 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clr-container {
+	width: 100%;
+	max-width: 540px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 15px;
+
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+.checkbox-error {
+	color: #ff0000;
+}
+
+.clr-container .logo {
+	width: 100%;
+	margin: 0 0 10px;
+}
+
+.clr-container .logo img {
+	max-width: 100%;
+}
+
+.clr-container h1 {
+	text-transform: none;
+	font-weight: bold;
+	font-size: 26px;
+	letter-spacing: normal;
+	word-spacing: normal;
+	margin: 0 0 15px;
+	padding: 0;
+	color: #222222;
+}
+
+.clr-container p {
+	line-height: 20px;
+	font-size: 16px;
+	margin: 0 0 15px;
+}
+
+.clr-container p.form-helper {
+	margin: 0 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#post-review-form input[type=text],
+#post-review-form textarea,
+#post-review-form select {
+	width: 100%;
+	margin: 0 0 10px;
+	border: 1px solid #DFDFDF;
+	padding: 5px;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+#post-review-form select {
+	margin: 15px 0;
+}
+
+#post-review-form input[type=submit] {
+	border: none;
+	outline: none;
+	font-weight: bold;
+	padding: 8px 20px;
+	margin: 10px 0 0;
+	cursor: pointer;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	background: #99CC00;
+	color: #fff;
+	float: left;
+	line-height: 1.5;
+	clear: both;
+	position: relative;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#post-review-form input[type=submit]:hover {
+	background: #8ebd00;
+}
+#post-review-form input[type=submit]:focus {
+	background: #86b300;
+	top: 2px;
+}
+
+.service-checkbox-holder {
+	width: 100%;
+	margin: 0 0 15px;
+	float: left;
+}
+
+.service-checkbox-holder .service-checkbox {
+	float: left;
+	margin: 0 15px 8px 0;
+}
+
+.service-checkbox-holder .service-checkbox input {
+	margin: 0 5px 0 0;
+}
+
+.service-checkbox-holder .service-checkbox label {
+	cursor:pointer;
+	font-size: 13px;
+}
+
+.star-rating-container {
+	width: 100%;
+	margin: 0 0 15px;
+	float: left;
+}
+
+.star-rating-container ul {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.star-rating-container p {
+	font-size: 13px;
+	float: left;
+	margin: 4px 0 0 10px;
+	background: #F0F0F0;
+	color: #999999;
+	font-weight: bold;
+	padding: 2px 8px 2px 3px;
+	position: relative;
+}
+.star-rating-container p:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top:0;
+	left: -15px;
+	border-style: solid;
+	border-width: 12px 15px 12px 0;
+	border-color: transparent #F0F0F0 transparent transparent;
+}
+
+#post-review-form .star-rating {
+	width: 160px;
+	height: 30px;
+}
+
+#post-review-form .star-rating li {
+	width: 32px;
+	height: 30px;
+}
+
+.social-sites {
+	width: 100%;
+	float: left;
+	list-style-type: none;
+	margin: 0 0 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.social-sites.social-4 li a {
+	width: 32%;
+	margin: 0 0.5% 10px;
+}
+
+.social-sites li a {
+	float: left;
+	display: block;
+	font-size: 16px;
+	color:#fff;
+	padding: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.social-sites li a:hover {
+	text-decoration: underline;
+}
+.social-sites li a.facebook-icon {
+	color:#3C5A96;
+}
+.social-sites li a.googleplus-icon {
+	color:#DB4C3F;
+}
+.social-sites li a.yelp-icon {
+	color:#C21713;
+}
+.social-sites li a.tripadvisor-icon {
+	color:#599345;
+}
+
+.clearfix, .group {
+    *zoom: 1; 
+}
+.clearfix:before, 
+.clearfix:after,
+.group:before, 
+.group:after {
+    content: " ";
+    display: table; 
+}
+.clearfix:after,
+.group:after {
+    clear: both; 
+}
+
+@media screen and ( min-width: 700px ) {
+
+	.clr-container {
+		padding: 30px;
+	}
+	.clr-container .logo {
+		width: 50%;
+	}
+	.social-sites.social-4 li a {
+		width: 24%;
+		margin: 0 0.5% 10px;
+	}
+
+}
