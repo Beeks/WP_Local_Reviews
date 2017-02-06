@@ -155,7 +155,7 @@ if (!class_exists('Creare_Local_Reviews')) {
 
             if (basename($file) == $plugin_file) {
 
-                $settings_link = '<a href="admin.php?page=creare-local-reviews-settings">Settings</a>';
+                $settings_link = '<a href="admin.php?page=creare-plugins-clr-settings">Settings</a>';
 
                 array_unshift($links, $settings_link);
 
