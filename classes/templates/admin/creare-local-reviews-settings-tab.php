@@ -95,7 +95,8 @@
                <?php
 
                 $default_select = '';
-                if( in_array('page.php', $settings['clr_pagetemplates']) ) {
+				
+                if(is_array($settings['clr_pagetemplates']) && in_array('page.php', $settings['clr_pagetemplates']) ) {
                     $default_select = 'selected="selected"';
                 }
 
