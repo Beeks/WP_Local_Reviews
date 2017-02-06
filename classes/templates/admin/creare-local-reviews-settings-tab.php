@@ -4,7 +4,7 @@
         <thead>
         <tr>
             <td>
-                <h3>Social Site URL's</h3>
+                <h3>Social Site URLs</h3>
             </td>
         </tr>
         </thead>
