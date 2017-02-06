@@ -91,10 +91,11 @@ class Creare_Reviews_Register_Menu
                 case 'settings' :
                     $templates_array = array();
                     $templates = '';
-
-                    foreach( $_POST['clr_pagetemplates'] as $template ) {
-                        $templates_array[] = $template;
-                    }
+					if (!empty($_POST['clr_pagetemplates'])) {
+						foreach( $_POST['clr_pagetemplates'] as $template ) {
+							$templates_array[] = $template;
+						}
+					}
 
                     $settings['clr_facebook'] = $_POST['clr_facebook'];
                     $settings['clr_googleplus'] = $_POST['clr_googleplus'];
