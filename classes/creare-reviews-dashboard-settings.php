@@ -175,7 +175,7 @@ class Creare_Reviews_Dashboard_Settings
         // if 2 or more fields are missing, show admin message
         if ($this->get_social_links() == '1' || $this->get_social_links() == '0') {
             echo '<div class="error"><p>';
-            printf(__('Warning: At least 2 social media sites should be added for Creare Local Reviews to be most efficient. | <a href="%1$s">Add them now</a>'), 'admin.php?page=creare-local-reviews-settings');
+            printf(__('Warning: At least 2 social media sites should be added for Creare Local Reviews to be most efficient. | <a href="%1$s">Add them now</a>'), 'admin.php?page=creare-plugins-clr-settings');
             echo "</p></div>";
         }
     }
